@@ -1,0 +1,21 @@
+@startuml
+
+
+note left of Calculation : C#
+note left of Application : Python
+
+package Calculation {
+  class Calculator {
+    -calculator: IEvaluator
+    +CalculateInfix(expression: string): double
+    +CalculatePrefix(expression: string): double
+    +CalculatePostfix(expression: string): double
+  }
+}
+
+package Application {
+    class app {
+    }
+}
+
+app --> Calculator
