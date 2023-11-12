@@ -4,7 +4,7 @@
 
 ## はじめに
 
-これは計算モジュール https://github.com/desuboruto/Calculation-App を使用した電卓 GUI アプリです。内部ロジックに関してはリンク先を見てください。
+これは計算モジュール https://github.com/desuboruto/Calculation-Module を使用した電卓 GUI アプリです。内部ロジックに関してはリンク先を見てください。
 GUI には python の tkinter を用いています。
 
 ## 環境
